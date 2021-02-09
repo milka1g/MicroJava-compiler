@@ -1,0 +1,18 @@
+Nije pronadjen tip abc u tabeli simbola! 
+Semanticka greska - ime promenljive leng vec postoji na liniji 16
+Greska na liniji 23 : ime hej nije deklarisano! 
+Greska na liniji 23 : nekompatibilni tipovi u dodeli vrednosti! 
+Greska na liniji 28 : nekompatibilni tipovi u dodeli vrednosti! 
+Greska pri print na liniji 29 : : dozvoljeni tipovi su int, char, bool! 
+Greska na liniji 32 : nekompatibilni tipovi u dodeli vrednosti! 
+Parametar inline funkcije ord mora biti tipa char na liniji 48
+Parametar  inline funkcije chr mora biti tipa int na liniji 49
+Parametar inline funkcije len mora biti tipa niz na liniji 50
+Greska - izraz za new naredbu pri alociranju niza mora biti ceo broj na liniji 52
+Greska - izraz za new naredbu pri alociranju niza mora biti ceo broj na liniji 66
+Greska na liniji 9 - Ne mogu se mnoziti razliciti tipovi na liniji 9
+Greska - izraz za new naredbu pri alociranju niza mora biti ceo broj na liniji 69
+Greska - drugi i treci izraz ternarnog operatora moraju biti istog tipa na liniji 70
+Greska pri print na liniji 70 : : dozvoljeni tipovi su int, char, bool! 
+Semanticka greska - metoda (funkcija) cetvrta nema return iskaz
+Ulazni fajl test\program.mj ima semanticke greske!

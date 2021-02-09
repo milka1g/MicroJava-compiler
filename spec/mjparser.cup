@@ -1,0 +1,287 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+
+	Logger loge = Logger.getLogger("error");
+	Logger log = Logger.getLogger("info");
+    boolean errorDetected = false;
+    Symbol err = null;
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	err = (Symbol)info;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji! ").append(err.left);
+            
+        loge.error(msg.toString());
+    }
+    
+    public boolean getErrorDetected() {
+		return errorDetected;
+	}
+
+
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, SQBRR, SQBRL, CONST, CLASS;
+terminal DOT, INCR, DECR, MULT, DIV, MOD, IF, DO, WHILE, SWITCH, EXTENDS, VOID;
+terminal BREAK, COLON, RETURN, CONTINUE, MINUS, PLUS, NEW, LE, EQ, LEEQ, GR, GREQ, NOTEQ, ELSE;
+terminal READ, CASE, OR, AND, QMARK, ENUM, EQUAL, AT, SWAP, HASH, FINAL, GOTO;
+terminal Integer NUMCONST;
+terminal Character CHARCONST;
+terminal String IDENT;
+terminal Boolean BOOLCONST;
+
+nonterminal DeclList, DeclPart, ConstDecl, ConstTypeList, VarDecl, VarDeclPart;
+nonterminal VarDeclList, MethodDeclList, FormPars;
+nonterminal StatementList, Statement, DesignatorStatement;
+nonterminal AddopTermList, MulopFactorList, Mulop;
+nonterminal Assignop, Addop, FormParsOpt;
+nonterminal FormParsCommaList;
+nonterminal VarDeclarations, ConstDeclPart, FormParPart;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodName, Designator, MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, ConstType, Expr, Term, Factor, Expr1, TernaryCond, TernaryExpr1, TernaryExpr2;
+
+
+Program ::= (Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE
+;
+
+ProgName ::= (ProgName) IDENT:progName
+;
+
+DeclList ::= (DeclarationList) DeclList DeclPart 
+		  | 
+		   (DeclarationListNo) /* epsilon */
+		  ;
+		   
+DeclPart ::= (DeclPartConst) ConstDecl
+		  | 
+		   (DeclPartVar) VarDecl
+		  ;
+
+ConstDecl ::= (ConstDeclaration) CONST Type:constType ConstDeclPart ConstTypeList SEMI
+;
+
+ConstDeclPart ::= (ConstDeclPart) IDENT:constIdName EQUAL ConstType:constValue
+;
+
+ConstType ::= (NumConst) NUMCONST:numVal
+		   |  
+		   (BoolConst) BOOLCONST:boolVal
+		   |
+		   (CharConst) CHARCONST:charVal
+		   ;
+
+ConstTypeList ::= (ConstantTypeList) ConstTypeList COMMA ConstDeclPart
+			  |
+			  (ConstTypeNo) /* epsilon */
+			  ;
+
+			  
+VarDecl ::= (VarDeclaration) Type:varType VarDeclPart VarDeclList SEMI
+		|
+		(VarDeclarationFinal) FINAL Type:varType VarDeclPart VarDeclList SEMI
+		|
+		(ErrorVarDecl) error SEMI:l
+		{: parser.report_error("Izvrsen [globalna prom.] oporavak od greske do ; ", parser.err); :}
+		;
+		
+VarDeclList ::= (VarDeclarationList) VarDeclList COMMA VarDeclPart
+			|  
+			(VarDeclarationListNone) /* epsilon */
+			;
+			
+VarDeclPart ::= (VarDeclPartArr) IDENT:arrName SQBRL SQBRR
+			 |
+			 (VarDeclPartStd) IDENT:varName
+			 |
+			 (ErrorVarDeclPart) error:l
+			{: parser.report_error("Izvrsen [globalna prom.] oporavak od greske do ,/; ", parser.err); :} 
+;
+
+
+VarDeclarations ::= (VarDeclarationsList) VarDeclarations VarDecl
+				|
+				(VarDeclarationsNo) /*epsilon*/
+				;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+			   | 
+			   (MethodDeclSingle) MethodDecl
+			   ;
+
+MethodDecl ::= (MethodDecl) MethodName LPAREN FormParsOpt RPAREN VarDeclarations LBRACE StatementList RBRACE
+			;
+			
+MethodName ::= (MethodTypeName) Type:t IDENT:metName
+			|
+			(MethodVoidName) VOID IDENT:metName
+			;
+			
+FormParsOpt ::= (FormParams) FormPars 
+		  | 
+		  (NoFormParam) /* epsilon */ 
+		  ;
+
+FormPars ::= (FormalParamDecls) FormParPart FormParsCommaList
+;
+					
+
+FormParsCommaList ::= (FormParsCommaLista) FormParsCommaList COMMA FormParPart
+				   |
+				   (FormParsCommaListNo) /* epsilon */
+;
+
+FormParPart ::= (FormParPartStd) Type IDENT:formParStd
+			|
+			(FormParPartArr) Type IDENT:formParArr SQBRL SQBRR
+			;
+				 
+Type ::= (Type) IDENT:typeName
+;
+
+StatementList ::= (Statements) StatementList Statement
+			  |
+			  (NoStmt) /* epsilon */
+			  ;
+			  
+Statement ::= (DesignatorStmt) DesignatorStatement SEMI
+		   |
+		   (Read) READ LPAREN Designator RPAREN SEMI
+		   |
+		   (PrintNum) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
+		   |
+		   (PrintNoNum)PRINT LPAREN Expr RPAREN SEMI 
+		   |
+		   (ListOfStmt) LBRACE StatementList RBRACE
+		   |
+		   (ReturnExpr) RETURN Expr SEMI
+	 	   |
+	   	   (ReturnNoExpr) RETURN SEMI
+	   	   |
+	   	   (GotoLabelStmt) GOTO IDENT:label SEMI
+	   	   |
+	   	   (Label) IDENT:label COLON
+	   	   |
+	   	   (Swap) Designator SWAP NUMCONST:val1 COMMA NUMCONST:val2 SWAP SEMI	   	   
+		   ;
+
+DesignatorStatement ::= (Assignment) Designator Assignop Expr
+					|
+					(Incr) Designator INCR
+					|
+					(Decr) Designator DECR
+					|
+					(ErrorStmtAssignBigDef) error:x
+	 				 {: parser.report_error("Izvrsen [fali cela dodela vrednosti] oporavak od greske do ; ", parser.err); :} 
+					;
+
+		 
+Expr1 ::= (Expression1) Term AddopTermList
+	 | 
+	 (Expression1Minus) MINUS Term AddopTermList
+	 |
+	  (ErrorStmtAssign) error:x
+	  {: parser.report_error("Izvrsen [Dodela vrednosti fali deo expr] oporavak od greske do ; ", parser.err); :} 
+	 ;
+	 
+Expr ::= (TernaryOp) TernaryCond QMARK TernaryExpr1 COLON TernaryExpr2
+	 	|
+	    (Expression) Expr1
+	  ;
+	  
+TernaryCond ::= (TernaryCond) Expr1
+;
+
+TernaryExpr1 ::= (TernaryExpr1) Expr1
+;
+
+TernaryExpr2 ::= (TernaryExpr2) Expr1
+;
+	
+Term ::= (Term) Factor MulopFactorList
+;
+
+	 
+AddopTermList ::= (AddopTermLista) AddopTermList Addop Term
+			  |
+			  (NoAddopTermList) /* epsilon */
+			  ;
+
+MulopFactorList ::= (MulopFactorLista) MulopFactorList Mulop Factor
+				|
+				(NoMulopFactorList) /* epsilon */
+				;
+				
+Factor ::= (FactorDesigOne) Designator
+	   |
+	   (FactorNumconst) NUMCONST
+	   |
+	   (FactorCharconst) CHARCONST
+	   |
+	   (FactorBoolconst) BOOLCONST
+	   |
+	   (FactorNew) NEW Type
+	   |
+	   (FactorNewArr) NEW Type SQBRL Expr SQBRR
+	   |
+	   (FactorHash) HASH IDENT:desigName SQBRL NUMCONST:index SQBRR
+	   |
+	   (FactorExpr) LPAREN Expr RPAREN
+	   |
+	   (FactorAt) Designator AT NUMCONST:val
+	   |
+	   (FactorFunctionCallPars) Designator LPAREN Expr RPAREN
+	   ;
+	   
+
+	   
+Designator ::= (DesignatorStd) IDENT:desigName
+			|
+			(DesignatorArr) IDENT:desigName SQBRL Expr:index SQBRR
+;
+
+
+Assignop ::= (Assign) EQUAL
+;
+
+Addop ::= (Addition) PLUS
+	  |
+	  (Subtraction) MINUS
+;
+
+Mulop ::= (Multiplication) MULT
+	  |
+	  (Division) DIV
+	  |
+	  (Modulus) MOD
+;

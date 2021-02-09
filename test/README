@@ -1,0 +1,5 @@
+Testiranje funkcionise tako sto:
+1) u program.mj se iskopira odredjeni test (fajl.mj)
+2) u Compiler > run conf > arguments se unesu >fajl.out i >fajl.err 
+3) generisu se u test/ ti fajlovi 
+2a) ne moze samo >fajl.err, iako je prepravka da se 1 if namesti... 

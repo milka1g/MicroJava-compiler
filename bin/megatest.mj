@@ -1,0 +1,73 @@
+// Test301
+
+program semantika
+
+	const int ci = 1; 
+	const int cii = 2, ciii = 3; 
+	const char cc = 'a';
+	const char ccc = 'b', cccc = 'c';
+	int niz[];
+	int m,t;
+	char c;
+	char c2,c3;
+	char nizc[];
+	bool b;
+	bool b1,b2;
+	bool nizb[];
+
+{
+	void main()	
+		bool bl,bll;
+		int il, ill;
+		char cl, cll;
+		bool nizbl[];
+		char nizcl[];
+		int nizil[];
+	{
+		nizbl = new bool[9];
+		niz = new int[4];
+		nizc = new char[5];
+		nizb = new bool[6];
+		niz[2]++;
+		nizc[0] = 'm';
+		nizc[niz[2]] = 't';
+		
+		nizbl[0] = true;
+		nizbl[1] = false;
+		
+		print(nizc[niz[2]]);
+		
+		c = chr(65);
+		m = ord('B');
+		il = len(nizbl);
+		print(il);
+		print(c);
+		print(m);
+		m = len(niz) + 10 * 5;
+		print(m);
+		
+		print(m,10);
+		print(eol);
+		
+		t = (1+1)*5/2+6;
+		print(t);
+		
+		read(bll);
+		read(cl);
+		read(il);
+		
+		print(eol);
+		print(bll);
+		print(il);
+		print(cl);
+		
+		print(0 ? niz[2] + 5: niz[2] + 30);
+		print(55 ? niz[2] + 5: niz[2] + 30);
+		print(true ? niz[2] + 5: niz[2] + 30);
+		print(false ? niz[2] + 5: niz[2] + 30);
+		return;
+	}
+	
+
+}
+

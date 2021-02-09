@@ -1,0 +1,23 @@
+//testovi za oporavak od greske za definiciju globalne promenljive i dodelu vrednosti
+
+program test301
+	//primer za do zareza
+	int a,,b;
+	//primer za citavu definiciju jer ne valja cela
+	int ,a,c,;
+	//primer za globalnu prom koja se init, a to ne sme
+	int m = 5;
+{
+	void main()	
+	{
+		bodovi = 0;
+		bodovi++;
+
+		//primer za dodelu vrednosti kad je izraz neispravan, Dodela vrednosti 
+		bodovi = -8+;
+		print(bodovi);
+		print(bodovi);
+		//primer za dodelu vrednosti kad izraz ni ne postoji, full Dodela vrednosti 
+		bt = true++1;
+	}
+}

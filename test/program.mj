@@ -1,0 +1,46 @@
+// Test301
+
+program semantika
+
+	const int ci = 1; 
+	const int cii = 2, ciii = 3; 
+	const char cc = 'a';
+	const char ccc = 'b', cccc = 'c';
+	int niz[];
+	int m,t;
+	char c;
+	char c2,c3;
+	char nizc[];
+	bool b;
+	bool b1,b2;
+	bool nizb[];
+
+{
+	void main()	
+		bool bl,bll;
+		int il, ill;
+		char cl, cll;
+		bool nizbl[];
+		char nizcl[];
+		int nizil[];
+	{
+	
+	niz = new int[4];
+	
+	niz[0] = 2;
+	niz[1] = 5;
+	niz[1]++;
+	niz[1]++;
+	niz[1]++;
+	niz[3] = 4;
+	
+	niz[2] = niz@1;
+	
+	niz~0,1~;
+	
+	print(niz[2]);
+	}
+	
+
+}
+

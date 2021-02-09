@@ -1,0 +1,834 @@
+Obrada ulaznog fajla test\program.mj
+#2 program
+#54 semantika
+#12 const
+#54 int
+#54 ci
+#46 =
+#52 1
+#5 ;
+#12 const
+#54 int
+#54 cii
+#46 =
+#52 2
+#8 ,
+#54 ciii
+#46 =
+#52 3
+#5 ;
+#12 const
+#54 char
+#54 cc
+#46 =
+#53 a
+#5 ;
+#12 const
+#54 char
+#54 ccc
+#46 =
+#53 b
+#8 ,
+#54 cccc
+#46 =
+#53 c
+#5 ;
+#54 int
+#54 niz
+#11 [
+#10 ]
+#5 ;
+#54 int
+#54 m
+#8 ,
+#54 t
+#5 ;
+#54 char
+#54 c
+#5 ;
+#54 char
+#54 c2
+#8 ,
+#54 c3
+#5 ;
+#54 char
+#54 nizc
+#11 [
+#10 ]
+#5 ;
+#54 bool
+#54 b
+#5 ;
+#54 bool
+#54 b1
+#8 ,
+#54 b2
+#5 ;
+#54 bool
+#54 nizb
+#11 [
+#10 ]
+#5 ;
+#3 {
+#25 void
+#54 main
+#6 (
+#7 )
+#54 bool
+#54 bl
+#8 ,
+#54 bll
+#5 ;
+#54 int
+#54 il
+#8 ,
+#54 ill
+#5 ;
+#54 char
+#54 cl
+#8 ,
+#54 cll
+#5 ;
+#54 bool
+#54 nizbl
+#11 [
+#10 ]
+#5 ;
+#54 char
+#54 nizcl
+#11 [
+#10 ]
+#5 ;
+#54 int
+#54 nizil
+#11 [
+#10 ]
+#5 ;
+#3 {
+#54 niz
+#46 =
+#32 new
+#54 int
+#11 [
+#52 4
+#10 ]
+#5 ;
+#54 niz
+#11 [
+#52 0
+#10 ]
+#46 =
+#52 2
+#5 ;
+#54 niz
+#11 [
+#52 1
+#10 ]
+#46 =
+#52 5
+#5 ;
+#54 niz
+#11 [
+#52 1
+#10 ]
+#15 ++
+#5 ;
+#54 niz
+#11 [
+#52 1
+#10 ]
+#15 ++
+#5 ;
+#54 niz
+#11 [
+#52 1
+#10 ]
+#15 ++
+#5 ;
+#54 niz
+#11 [
+#52 3
+#10 ]
+#46 =
+#52 4
+#5 ;
+#54 niz
+#11 [
+#52 2
+#10 ]
+#46 =
+#54 niz
+#47 @
+#52 1
+#5 ;
+#54 niz
+#48 ~
+#52 0
+#8 ,
+#52 1
+#48 ~
+#5 ;
+#9 print
+#6 (
+#54 niz
+#11 [
+#52 2
+#10 ]
+#7 )
+#5 ;
+#4 }
+#4 }
+=====================SINTAKSNO_STABLO=========================
+
+Program(
+  ProgName(
+   semantika
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  DeclarationList(
+                    DeclarationList(
+                      DeclarationList(
+                        DeclarationList(
+                          DeclarationListNo(
+                          ) [DeclarationListNo]
+                          DeclPartConst(
+                            ConstDeclaration(
+                              Type(
+                               int
+                              ) [Type]
+                              ConstDeclPart(
+                               ci
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [ConstDeclPart]
+                              ConstTypeNo(
+                              ) [ConstTypeNo]
+                            ) [ConstDeclaration]
+                          ) [DeclPartConst]
+                        ) [DeclarationList]
+                        DeclPartConst(
+                          ConstDeclaration(
+                            Type(
+                             int
+                            ) [Type]
+                            ConstDeclPart(
+                             cii
+                              NumConst(
+                               2
+                              ) [NumConst]
+                            ) [ConstDeclPart]
+                            ConstantTypeList(
+                              ConstTypeNo(
+                              ) [ConstTypeNo]
+                              ConstDeclPart(
+                               ciii
+                                NumConst(
+                                 3
+                                ) [NumConst]
+                              ) [ConstDeclPart]
+                            ) [ConstantTypeList]
+                          ) [ConstDeclaration]
+                        ) [DeclPartConst]
+                      ) [DeclarationList]
+                      DeclPartConst(
+                        ConstDeclaration(
+                          Type(
+                           char
+                          ) [Type]
+                          ConstDeclPart(
+                           cc
+                            CharConst(
+                             a
+                            ) [CharConst]
+                          ) [ConstDeclPart]
+                          ConstTypeNo(
+                          ) [ConstTypeNo]
+                        ) [ConstDeclaration]
+                      ) [DeclPartConst]
+                    ) [DeclarationList]
+                    DeclPartConst(
+                      ConstDeclaration(
+                        Type(
+                         char
+                        ) [Type]
+                        ConstDeclPart(
+                         ccc
+                          CharConst(
+                           b
+                          ) [CharConst]
+                        ) [ConstDeclPart]
+                        ConstantTypeList(
+                          ConstTypeNo(
+                          ) [ConstTypeNo]
+                          ConstDeclPart(
+                           cccc
+                            CharConst(
+                             c
+                            ) [CharConst]
+                          ) [ConstDeclPart]
+                        ) [ConstantTypeList]
+                      ) [ConstDeclaration]
+                    ) [DeclPartConst]
+                  ) [DeclarationList]
+                  DeclPartVar(
+                    VarDeclaration(
+                      Type(
+                       int
+                      ) [Type]
+                      VarDeclPartArr(
+                       niz
+                      ) [VarDeclPartArr]
+                      VarDeclarationListNone(
+                      ) [VarDeclarationListNone]
+                    ) [VarDeclaration]
+                  ) [DeclPartVar]
+                ) [DeclarationList]
+                DeclPartVar(
+                  VarDeclaration(
+                    Type(
+                     int
+                    ) [Type]
+                    VarDeclPartStd(
+                     m
+                    ) [VarDeclPartStd]
+                    VarDeclarationList(
+                      VarDeclarationListNone(
+                      ) [VarDeclarationListNone]
+                      VarDeclPartStd(
+                       t
+                      ) [VarDeclPartStd]
+                    ) [VarDeclarationList]
+                  ) [VarDeclaration]
+                ) [DeclPartVar]
+              ) [DeclarationList]
+              DeclPartVar(
+                VarDeclaration(
+                  Type(
+                   char
+                  ) [Type]
+                  VarDeclPartStd(
+                   c
+                  ) [VarDeclPartStd]
+                  VarDeclarationListNone(
+                  ) [VarDeclarationListNone]
+                ) [VarDeclaration]
+              ) [DeclPartVar]
+            ) [DeclarationList]
+            DeclPartVar(
+              VarDeclaration(
+                Type(
+                 char
+                ) [Type]
+                VarDeclPartStd(
+                 c2
+                ) [VarDeclPartStd]
+                VarDeclarationList(
+                  VarDeclarationListNone(
+                  ) [VarDeclarationListNone]
+                  VarDeclPartStd(
+                   c3
+                  ) [VarDeclPartStd]
+                ) [VarDeclarationList]
+              ) [VarDeclaration]
+            ) [DeclPartVar]
+          ) [DeclarationList]
+          DeclPartVar(
+            VarDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarDeclPartArr(
+               nizc
+              ) [VarDeclPartArr]
+              VarDeclarationListNone(
+              ) [VarDeclarationListNone]
+            ) [VarDeclaration]
+          ) [DeclPartVar]
+        ) [DeclarationList]
+        DeclPartVar(
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarDeclPartStd(
+             b
+            ) [VarDeclPartStd]
+            VarDeclarationListNone(
+            ) [VarDeclarationListNone]
+          ) [VarDeclaration]
+        ) [DeclPartVar]
+      ) [DeclarationList]
+      DeclPartVar(
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          VarDeclPartStd(
+           b1
+          ) [VarDeclPartStd]
+          VarDeclarationList(
+            VarDeclarationListNone(
+            ) [VarDeclarationListNone]
+            VarDeclPartStd(
+             b2
+            ) [VarDeclPartStd]
+          ) [VarDeclarationList]
+        ) [VarDeclaration]
+      ) [DeclPartVar]
+    ) [DeclarationList]
+    DeclPartVar(
+      VarDeclaration(
+        Type(
+         bool
+        ) [Type]
+        VarDeclPartArr(
+         nizb
+        ) [VarDeclPartArr]
+        VarDeclarationListNone(
+        ) [VarDeclarationListNone]
+      ) [VarDeclaration]
+    ) [DeclPartVar]
+  ) [DeclarationList]
+  MethodDeclSingle(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarationsList(
+        VarDeclarationsList(
+          VarDeclarationsList(
+            VarDeclarationsList(
+              VarDeclarationsList(
+                VarDeclarationsList(
+                  VarDeclarationsNo(
+                  ) [VarDeclarationsNo]
+                  VarDeclaration(
+                    Type(
+                     bool
+                    ) [Type]
+                    VarDeclPartStd(
+                     bl
+                    ) [VarDeclPartStd]
+                    VarDeclarationList(
+                      VarDeclarationListNone(
+                      ) [VarDeclarationListNone]
+                      VarDeclPartStd(
+                       bll
+                      ) [VarDeclPartStd]
+                    ) [VarDeclarationList]
+                  ) [VarDeclaration]
+                ) [VarDeclarationsList]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclPartStd(
+                   il
+                  ) [VarDeclPartStd]
+                  VarDeclarationList(
+                    VarDeclarationListNone(
+                    ) [VarDeclarationListNone]
+                    VarDeclPartStd(
+                     ill
+                    ) [VarDeclPartStd]
+                  ) [VarDeclarationList]
+                ) [VarDeclaration]
+              ) [VarDeclarationsList]
+              VarDeclaration(
+                Type(
+                 char
+                ) [Type]
+                VarDeclPartStd(
+                 cl
+                ) [VarDeclPartStd]
+                VarDeclarationList(
+                  VarDeclarationListNone(
+                  ) [VarDeclarationListNone]
+                  VarDeclPartStd(
+                   cll
+                  ) [VarDeclPartStd]
+                ) [VarDeclarationList]
+              ) [VarDeclaration]
+            ) [VarDeclarationsList]
+            VarDeclaration(
+              Type(
+               bool
+              ) [Type]
+              VarDeclPartArr(
+               nizbl
+              ) [VarDeclPartArr]
+              VarDeclarationListNone(
+              ) [VarDeclarationListNone]
+            ) [VarDeclaration]
+          ) [VarDeclarationsList]
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            VarDeclPartArr(
+             nizcl
+            ) [VarDeclPartArr]
+            VarDeclarationListNone(
+            ) [VarDeclarationListNone]
+          ) [VarDeclaration]
+        ) [VarDeclarationsList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarDeclPartArr(
+           nizil
+          ) [VarDeclPartArr]
+          VarDeclarationListNone(
+          ) [VarDeclarationListNone]
+        ) [VarDeclaration]
+      ) [VarDeclarationsList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          NoStmt(
+                          ) [NoStmt]
+                          DesignatorStmt(
+                            Assignment(
+                              DesignatorStd(
+                               niz
+                              ) [DesignatorStd]
+                              Assign(
+                              ) [Assign]
+                              Expression(
+                                Expression1(
+                                  Term(
+                                    FactorNewArr(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expression(
+                                        Expression1(
+                                          Term(
+                                            FactorNumconst(
+                                             4
+                                            ) [FactorNumconst]
+                                            NoMulopFactorList(
+                                            ) [NoMulopFactorList]
+                                          ) [Term]
+                                          NoAddopTermList(
+                                          ) [NoAddopTermList]
+                                        ) [Expression1]
+                                      ) [Expression]
+                                    ) [FactorNewArr]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expression1]
+                              ) [Expression]
+                            ) [Assignment]
+                          ) [DesignatorStmt]
+                        ) [Statements]
+                        DesignatorStmt(
+                          Assignment(
+                            DesignatorArr(
+                             niz
+                              Expression(
+                                Expression1(
+                                  Term(
+                                    FactorNumconst(
+                                     0
+                                    ) [FactorNumconst]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expression1]
+                              ) [Expression]
+                            ) [DesignatorArr]
+                            Assign(
+                            ) [Assign]
+                            Expression(
+                              Expression1(
+                                Term(
+                                  FactorNumconst(
+                                   2
+                                  ) [FactorNumconst]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expression1]
+                            ) [Expression]
+                          ) [Assignment]
+                        ) [DesignatorStmt]
+                      ) [Statements]
+                      DesignatorStmt(
+                        Assignment(
+                          DesignatorArr(
+                           niz
+                            Expression(
+                              Expression1(
+                                Term(
+                                  FactorNumconst(
+                                   1
+                                  ) [FactorNumconst]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expression1]
+                            ) [Expression]
+                          ) [DesignatorArr]
+                          Assign(
+                          ) [Assign]
+                          Expression(
+                            Expression1(
+                              Term(
+                                FactorNumconst(
+                                 5
+                                ) [FactorNumconst]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [Expression1]
+                          ) [Expression]
+                        ) [Assignment]
+                      ) [DesignatorStmt]
+                    ) [Statements]
+                    DesignatorStmt(
+                      Incr(
+                        DesignatorArr(
+                         niz
+                          Expression(
+                            Expression1(
+                              Term(
+                                FactorNumconst(
+                                 1
+                                ) [FactorNumconst]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                            ) [Expression1]
+                          ) [Expression]
+                        ) [DesignatorArr]
+                      ) [Incr]
+                    ) [DesignatorStmt]
+                  ) [Statements]
+                  DesignatorStmt(
+                    Incr(
+                      DesignatorArr(
+                       niz
+                        Expression(
+                          Expression1(
+                            Term(
+                              FactorNumconst(
+                               1
+                              ) [FactorNumconst]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [Expression1]
+                        ) [Expression]
+                      ) [DesignatorArr]
+                    ) [Incr]
+                  ) [DesignatorStmt]
+                ) [Statements]
+                DesignatorStmt(
+                  Incr(
+                    DesignatorArr(
+                     niz
+                      Expression(
+                        Expression1(
+                          Term(
+                            FactorNumconst(
+                             1
+                            ) [FactorNumconst]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          NoAddopTermList(
+                          ) [NoAddopTermList]
+                        ) [Expression1]
+                      ) [Expression]
+                    ) [DesignatorArr]
+                  ) [Incr]
+                ) [DesignatorStmt]
+              ) [Statements]
+              DesignatorStmt(
+                Assignment(
+                  DesignatorArr(
+                   niz
+                    Expression(
+                      Expression1(
+                        Term(
+                          FactorNumconst(
+                           3
+                          ) [FactorNumconst]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expression1]
+                    ) [Expression]
+                  ) [DesignatorArr]
+                  Assign(
+                  ) [Assign]
+                  Expression(
+                    Expression1(
+                      Term(
+                        FactorNumconst(
+                         4
+                        ) [FactorNumconst]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expression1]
+                  ) [Expression]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [Statements]
+            DesignatorStmt(
+              Assignment(
+                DesignatorArr(
+                 niz
+                  Expression(
+                    Expression1(
+                      Term(
+                        FactorNumconst(
+                         2
+                        ) [FactorNumconst]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expression1]
+                  ) [Expression]
+                ) [DesignatorArr]
+                Assign(
+                ) [Assign]
+                Expression(
+                  Expression1(
+                    Term(
+                      FactorAt(
+                        DesignatorStd(
+                         niz
+                        ) [DesignatorStd]
+                       1
+                      ) [FactorAt]
+                      NoMulopFactorList(
+                      ) [NoMulopFactorList]
+                    ) [Term]
+                    NoAddopTermList(
+                    ) [NoAddopTermList]
+                  ) [Expression1]
+                ) [Expression]
+              ) [Assignment]
+            ) [DesignatorStmt]
+          ) [Statements]
+          Swap(
+            DesignatorStd(
+             niz
+            ) [DesignatorStd]
+           0
+           1
+          ) [Swap]
+        ) [Statements]
+        PrintNoNum(
+          Expression(
+            Expression1(
+              Term(
+                FactorDesigOne(
+                  DesignatorArr(
+                   niz
+                    Expression(
+                      Expression1(
+                        Term(
+                          FactorNumconst(
+                           2
+                          ) [FactorNumconst]
+                          NoMulopFactorList(
+                          ) [NoMulopFactorList]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expression1]
+                    ) [Expression]
+                  ) [DesignatorArr]
+                ) [FactorDesigOne]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expression1]
+          ) [Expression]
+        ) [PrintNoNum]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclSingle]
+) [Program]
+Pocetak semanticke obrade programa semantika na liniji 3
+Deklarisana konstanta ci : Con ci: int, 0, 0  na liniji 5
+Deklarisana konstanta cii : Con cii: int, 0, 0  na liniji 6
+Deklarisana konstanta ciii : Con ciii: int, 0, 0  na liniji 6
+Deklarisana konstanta cc : Con cc: char, 0, 0  na liniji 7
+Deklarisana konstanta ccc : Con ccc: char, 0, 0  na liniji 8
+Deklarisana konstanta cccc : Con cccc: char, 0, 0  na liniji 8
+Deklarisan globalni niz niz : Var niz: Arr of int, 0, 0  na liniji 9
+Deklarisana globalna promenljiva m : Var m: int, 1, 0  na liniji 10
+Deklarisana globalna promenljiva t : Var t: int, 2, 0  na liniji 10
+Deklarisana globalna promenljiva c : Var c: char, 3, 0  na liniji 11
+Deklarisana globalna promenljiva c2 : Var c2: char, 4, 0  na liniji 12
+Deklarisana globalna promenljiva c3 : Var c3: char, 5, 0  na liniji 12
+Deklarisan globalni niz nizc : Var nizc: Arr of char, 6, 0  na liniji 13
+Deklarisana globalna promenljiva b : Var b: bool, 7, 0  na liniji 14
+Deklarisana globalna promenljiva b1 : Var b1: bool, 8, 0  na liniji 15
+Deklarisana globalna promenljiva b2 : Var b2: bool, 9, 0  na liniji 15
+Deklarisan globalni niz nizb : Var nizb: Arr of bool, 10, 0  na liniji 16
+Obrada metode main bez povratne vrednosti na liniji 19
+Deklarisana lokalna promenljiva bl : Var bl: bool, 0, 1  na liniji 20
+Deklarisana lokalna promenljiva bll : Var bll: bool, 1, 1  na liniji 20
+Deklarisana lokalna promenljiva il : Var il: int, 2, 1  na liniji 21
+Deklarisana lokalna promenljiva ill : Var ill: int, 3, 1  na liniji 21
+Deklarisana lokalna promenljiva cl : Var cl: char, 4, 1  na liniji 22
+Deklarisana lokalna promenljiva cll : Var cll: char, 5, 1  na liniji 22
+Deklarisan lokalni niz nizbl : Var nizbl: Arr of bool, 6, 1  na liniji 23
+Deklarisan lokalni niz nizcl : Var nizcl: Arr of char, 7, 1  na liniji 24
+Deklarisan lokalni niz nizil : Var nizil: Arr of int, 8, 1  na liniji 25
+Upotreba (niz) : Var niz: Arr of int, 0, 0  na liniji 28
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 30
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 31
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 32
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 33
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 34
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 35
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 37
+Upotreba (niz) : Var niz: Arr of int, 0, 0  na liniji 37

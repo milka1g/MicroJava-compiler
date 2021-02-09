@@ -1,0 +1,2127 @@
+Obrada ulaznog fajla test\program.mj
+#2 program
+#49 semantika
+#12 const
+#49 int
+#49 nula
+#46 =
+#47 0
+#5 ;
+#12 const
+#49 int
+#49 jedan
+#46 =
+#47 1
+#5 ;
+#12 const
+#49 int
+#49 pet
+#46 =
+#47 5
+#5 ;
+#49 int
+#49 niz
+#11 [
+#10 ]
+#5 ;
+#49 char
+#49 nizch
+#11 [
+#10 ]
+#5 ;
+#49 bool
+#49 nizb
+#11 [
+#10 ]
+#5 ;
+#3 {
+#25 void
+#49 main
+#6 (
+#7 )
+#49 int
+#49 bodovi
+#5 ;
+#49 int
+#49 len
+#5 ;
+#49 int
+#49 vrednostInt
+#5 ;
+#49 char
+#49 vrednostChar
+#5 ;
+#49 char
+#49 nen
+#11 [
+#10 ]
+#5 ;
+#49 bool
+#49 bt
+#5 ;
+#3 {
+#49 bodovi
+#46 =
+#47 0
+#5 ;
+#49 bodovi
+#15 ++
+#5 ;
+#49 bodovi
+#46 =
+#49 bodovi
+#31 +
+#49 jedan
+#5 ;
+#49 bodovi
+#46 =
+#49 bodovi
+#17 *
+#49 pet
+#5 ;
+#49 bodovi
+#16 --
+#5 ;
+#9 print
+#6 (
+#49 bodovi
+#7 )
+#5 ;
+#49 nizb
+#46 =
+#32 new
+#49 bool
+#11 [
+#47 5
+#10 ]
+#5 ;
+#49 nizb
+#11 [
+#47 0
+#10 ]
+#46 =
+#50 true
+#5 ;
+#49 nizb
+#11 [
+#47 1
+#10 ]
+#46 =
+#50 false
+#5 ;
+#9 print
+#6 (
+#49 nizb
+#11 [
+#47 0
+#10 ]
+#7 )
+#5 ;
+#49 niz
+#46 =
+#32 new
+#49 int
+#11 [
+#47 3
+#10 ]
+#5 ;
+#49 niz
+#11 [
+#49 nula
+#10 ]
+#46 =
+#49 jedan
+#5 ;
+#49 niz
+#11 [
+#47 1
+#10 ]
+#46 =
+#47 2
+#5 ;
+#49 niz
+#11 [
+#49 niz
+#11 [
+#49 jedan
+#10 ]
+#10 ]
+#46 =
+#49 niz
+#11 [
+#49 niz
+#11 [
+#47 0
+#10 ]
+#10 ]
+#17 *
+#47 3
+#5 ;
+#49 bodovi
+#46 =
+#49 niz
+#11 [
+#47 2
+#10 ]
+#18 /
+#49 niz
+#11 [
+#47 0
+#10 ]
+#5 ;
+#9 print
+#6 (
+#49 bodovi
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 niz
+#11 [
+#47 2
+#10 ]
+#7 )
+#5 ;
+#49 vrednostInt
+#46 =
+#49 ord
+#6 (
+#48 a
+#7 )
+#5 ;
+#49 vrednostChar
+#46 =
+#49 chr
+#6 (
+#47 65
+#7 )
+#5 ;
+#49 nizch
+#46 =
+#32 new
+#49 char
+#11 [
+#47 3
+#10 ]
+#5 ;
+#49 nizch
+#11 [
+#47 0
+#10 ]
+#46 =
+#48 a
+#5 ;
+#49 nizch
+#11 [
+#49 jedan
+#10 ]
+#46 =
+#48 b
+#5 ;
+#49 nizch
+#11 [
+#49 pet
+#30 -
+#47 3
+#10 ]
+#46 =
+#48 c
+#5 ;
+#9 print
+#6 (
+#49 nizch
+#11 [
+#47 1
+#10 ]
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 nizch
+#11 [
+#49 jedan
+#17 *
+#47 2
+#10 ]
+#7 )
+#5 ;
+#49 bodovi
+#46 =
+#49 bodovi
+#31 +
+#6 (
+#49 pet
+#17 *
+#49 jedan
+#30 -
+#47 1
+#7 )
+#17 *
+#49 bodovi
+#30 -
+#6 (
+#47 3
+#19 %
+#47 2
+#31 +
+#47 3
+#17 *
+#47 2
+#30 -
+#47 3
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 bodovi
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 vrednostInt
+#7 )
+#5 ;
+#9 print
+#6 (
+#30 -
+#49 vrednostInt
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 vrednostChar
+#8 ,
+#47 20
+#7 )
+#5 ;
+#49 bt
+#46 =
+#50 true
+#5 ;
+#9 print
+#6 (
+#49 bt
+#8 ,
+#47 10
+#7 )
+#5 ;
+#9 print
+#6 (
+#49 bt
+#44 ?
+#49 bodovi
+#27 :
+#49 bodovi
+#31 +
+#47 10
+#7 )
+#5 ;
+#9 print
+#6 (
+#50 false
+#44 ?
+#49 bodovi
+#31 +
+#47 20
+#27 :
+#49 bodovi
+#31 +
+#47 30
+#7 )
+#5 ;
+#28 return
+#5 ;
+#4 }
+#25 void
+#49 druganeka
+#6 (
+#7 )
+#3 {
+#4 }
+#49 int
+#49 trecaneka
+#6 (
+#7 )
+#3 {
+#28 return
+#47 1
+#5 ;
+#4 }
+#49 char
+#49 cetvrta
+#6 (
+#49 char
+#49 a
+#7 )
+#3 {
+#28 return
+#49 a
+#5 ;
+#4 }
+#49 bool
+#49 peta
+#6 (
+#49 int
+#49 a
+#8 ,
+#49 char
+#49 b
+#8 ,
+#49 bool
+#49 c
+#7 )
+#3 {
+#28 return
+#49 c
+#5 ;
+#4 }
+#4 }
+=====================SINTAKSNO_STABLO=========================
+
+Program(
+  ProgName(
+   semantika
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationListNo(
+              ) [DeclarationListNo]
+              DeclPartConst(
+                ConstDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclPart(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstDeclPart]
+                  ConstTypeNo(
+                  ) [ConstTypeNo]
+                ) [ConstDeclaration]
+              ) [DeclPartConst]
+            ) [DeclarationList]
+            DeclPartConst(
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclPart(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstDeclPart]
+                ConstTypeNo(
+                ) [ConstTypeNo]
+              ) [ConstDeclaration]
+            ) [DeclPartConst]
+          ) [DeclarationList]
+          DeclPartConst(
+            ConstDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstDeclPart(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstDeclPart]
+              ConstTypeNo(
+              ) [ConstTypeNo]
+            ) [ConstDeclaration]
+          ) [DeclPartConst]
+        ) [DeclarationList]
+        DeclPartVar(
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclPartArr(
+             niz
+            ) [VarDeclPartArr]
+            VarDeclarationListNone(
+            ) [VarDeclarationListNone]
+          ) [VarDeclaration]
+        ) [DeclPartVar]
+      ) [DeclarationList]
+      DeclPartVar(
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarDeclPartArr(
+           nizch
+          ) [VarDeclPartArr]
+          VarDeclarationListNone(
+          ) [VarDeclarationListNone]
+        ) [VarDeclaration]
+      ) [DeclPartVar]
+    ) [DeclarationList]
+    DeclPartVar(
+      VarDeclaration(
+        Type(
+         bool
+        ) [Type]
+        VarDeclPartArr(
+         nizb
+        ) [VarDeclPartArr]
+        VarDeclarationListNone(
+        ) [VarDeclarationListNone]
+      ) [VarDeclaration]
+    ) [DeclPartVar]
+  ) [DeclarationList]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          MethodDeclSingle(
+            MethodDecl(
+              MethodVoidName(
+               main
+              ) [MethodVoidName]
+              NoFormParam(
+              ) [NoFormParam]
+              VarDeclarationsList(
+                VarDeclarationsList(
+                  VarDeclarationsList(
+                    VarDeclarationsList(
+                      VarDeclarationsList(
+                        VarDeclarationsList(
+                          VarDeclarationsNo(
+                          ) [VarDeclarationsNo]
+                          VarDeclaration(
+                            Type(
+                             int
+                            ) [Type]
+                            VarDeclPartStd(
+                             bodovi
+                            ) [VarDeclPartStd]
+                            VarDeclarationListNone(
+                            ) [VarDeclarationListNone]
+                          ) [VarDeclaration]
+                        ) [VarDeclarationsList]
+                        VarDeclaration(
+                          Type(
+                           int
+                          ) [Type]
+                          VarDeclPartStd(
+                           len
+                          ) [VarDeclPartStd]
+                          VarDeclarationListNone(
+                          ) [VarDeclarationListNone]
+                        ) [VarDeclaration]
+                      ) [VarDeclarationsList]
+                      VarDeclaration(
+                        Type(
+                         int
+                        ) [Type]
+                        VarDeclPartStd(
+                         vrednostInt
+                        ) [VarDeclPartStd]
+                        VarDeclarationListNone(
+                        ) [VarDeclarationListNone]
+                      ) [VarDeclaration]
+                    ) [VarDeclarationsList]
+                    VarDeclaration(
+                      Type(
+                       char
+                      ) [Type]
+                      VarDeclPartStd(
+                       vrednostChar
+                      ) [VarDeclPartStd]
+                      VarDeclarationListNone(
+                      ) [VarDeclarationListNone]
+                    ) [VarDeclaration]
+                  ) [VarDeclarationsList]
+                  VarDeclaration(
+                    Type(
+                     char
+                    ) [Type]
+                    VarDeclPartArr(
+                     nen
+                    ) [VarDeclPartArr]
+                    VarDeclarationListNone(
+                    ) [VarDeclarationListNone]
+                  ) [VarDeclaration]
+                ) [VarDeclarationsList]
+                VarDeclaration(
+                  Type(
+                   bool
+                  ) [Type]
+                  VarDeclPartStd(
+                   bt
+                  ) [VarDeclPartStd]
+                  VarDeclarationListNone(
+                  ) [VarDeclarationListNone]
+                ) [VarDeclaration]
+              ) [VarDeclarationsList]
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    Statements(
+                                                                      Statements(
+                                                                        Statements(
+                                                                          Statements(
+                                                                            Statements(
+                                                                              Statements(
+                                                                                Statements(
+                                                                                  Statements(
+                                                                                    NoStmt(
+                                                                                    ) [NoStmt]
+                                                                                    DesignatorStmt(
+                                                                                      Assignment(
+                                                                                        DesignatorStd(
+                                                                                         bodovi
+                                                                                        ) [DesignatorStd]
+                                                                                        Assign(
+                                                                                        ) [Assign]
+                                                                                        Expression(
+                                                                                          Expression1(
+                                                                                            Term(
+                                                                                              FactorNumconst(
+                                                                                               0
+                                                                                              ) [FactorNumconst]
+                                                                                              NoMulopFactorList(
+                                                                                              ) [NoMulopFactorList]
+                                                                                            ) [Term]
+                                                                                            NoAddopTermList(
+                                                                                            ) [NoAddopTermList]
+                                                                                          ) [Expression1]
+                                                                                        ) [Expression]
+                                                                                      ) [Assignment]
+                                                                                    ) [DesignatorStmt]
+                                                                                  ) [Statements]
+                                                                                  DesignatorStmt(
+                                                                                    Incr(
+                                                                                      DesignatorStd(
+                                                                                       bodovi
+                                                                                      ) [DesignatorStd]
+                                                                                    ) [Incr]
+                                                                                  ) [DesignatorStmt]
+                                                                                ) [Statements]
+                                                                                DesignatorStmt(
+                                                                                  Assignment(
+                                                                                    DesignatorStd(
+                                                                                     bodovi
+                                                                                    ) [DesignatorStd]
+                                                                                    Assign(
+                                                                                    ) [Assign]
+                                                                                    Expression(
+                                                                                      Expression1(
+                                                                                        Term(
+                                                                                          FactorDesigOne(
+                                                                                            DesignatorStd(
+                                                                                             bodovi
+                                                                                            ) [DesignatorStd]
+                                                                                          ) [FactorDesigOne]
+                                                                                          NoMulopFactorList(
+                                                                                          ) [NoMulopFactorList]
+                                                                                        ) [Term]
+                                                                                        AddopTermLista(
+                                                                                          NoAddopTermList(
+                                                                                          ) [NoAddopTermList]
+                                                                                          Addition(
+                                                                                          ) [Addition]
+                                                                                          Term(
+                                                                                            FactorDesigOne(
+                                                                                              DesignatorStd(
+                                                                                               jedan
+                                                                                              ) [DesignatorStd]
+                                                                                            ) [FactorDesigOne]
+                                                                                            NoMulopFactorList(
+                                                                                            ) [NoMulopFactorList]
+                                                                                          ) [Term]
+                                                                                        ) [AddopTermLista]
+                                                                                      ) [Expression1]
+                                                                                    ) [Expression]
+                                                                                  ) [Assignment]
+                                                                                ) [DesignatorStmt]
+                                                                              ) [Statements]
+                                                                              DesignatorStmt(
+                                                                                Assignment(
+                                                                                  DesignatorStd(
+                                                                                   bodovi
+                                                                                  ) [DesignatorStd]
+                                                                                  Assign(
+                                                                                  ) [Assign]
+                                                                                  Expression(
+                                                                                    Expression1(
+                                                                                      Term(
+                                                                                        FactorDesigOne(
+                                                                                          DesignatorStd(
+                                                                                           bodovi
+                                                                                          ) [DesignatorStd]
+                                                                                        ) [FactorDesigOne]
+                                                                                        MulopFactorLista(
+                                                                                          NoMulopFactorList(
+                                                                                          ) [NoMulopFactorList]
+                                                                                          Multiplication(
+                                                                                          ) [Multiplication]
+                                                                                          FactorDesigOne(
+                                                                                            DesignatorStd(
+                                                                                             pet
+                                                                                            ) [DesignatorStd]
+                                                                                          ) [FactorDesigOne]
+                                                                                        ) [MulopFactorLista]
+                                                                                      ) [Term]
+                                                                                      NoAddopTermList(
+                                                                                      ) [NoAddopTermList]
+                                                                                    ) [Expression1]
+                                                                                  ) [Expression]
+                                                                                ) [Assignment]
+                                                                              ) [DesignatorStmt]
+                                                                            ) [Statements]
+                                                                            DesignatorStmt(
+                                                                              Decr(
+                                                                                DesignatorStd(
+                                                                                 bodovi
+                                                                                ) [DesignatorStd]
+                                                                              ) [Decr]
+                                                                            ) [DesignatorStmt]
+                                                                          ) [Statements]
+                                                                          PrintNoNum(
+                                                                            Expression(
+                                                                              Expression1(
+                                                                                Term(
+                                                                                  FactorDesigOne(
+                                                                                    DesignatorStd(
+                                                                                     bodovi
+                                                                                    ) [DesignatorStd]
+                                                                                  ) [FactorDesigOne]
+                                                                                  NoMulopFactorList(
+                                                                                  ) [NoMulopFactorList]
+                                                                                ) [Term]
+                                                                                NoAddopTermList(
+                                                                                ) [NoAddopTermList]
+                                                                              ) [Expression1]
+                                                                            ) [Expression]
+                                                                          ) [PrintNoNum]
+                                                                        ) [Statements]
+                                                                        DesignatorStmt(
+                                                                          Assignment(
+                                                                            DesignatorStd(
+                                                                             nizb
+                                                                            ) [DesignatorStd]
+                                                                            Assign(
+                                                                            ) [Assign]
+                                                                            Expression(
+                                                                              Expression1(
+                                                                                Term(
+                                                                                  FactorNewArr(
+                                                                                    Type(
+                                                                                     bool
+                                                                                    ) [Type]
+                                                                                    Expression(
+                                                                                      Expression1(
+                                                                                        Term(
+                                                                                          FactorNumconst(
+                                                                                           5
+                                                                                          ) [FactorNumconst]
+                                                                                          NoMulopFactorList(
+                                                                                          ) [NoMulopFactorList]
+                                                                                        ) [Term]
+                                                                                        NoAddopTermList(
+                                                                                        ) [NoAddopTermList]
+                                                                                      ) [Expression1]
+                                                                                    ) [Expression]
+                                                                                  ) [FactorNewArr]
+                                                                                  NoMulopFactorList(
+                                                                                  ) [NoMulopFactorList]
+                                                                                ) [Term]
+                                                                                NoAddopTermList(
+                                                                                ) [NoAddopTermList]
+                                                                              ) [Expression1]
+                                                                            ) [Expression]
+                                                                          ) [Assignment]
+                                                                        ) [DesignatorStmt]
+                                                                      ) [Statements]
+                                                                      DesignatorStmt(
+                                                                        Assignment(
+                                                                          DesignatorArr(
+                                                                           nizb
+                                                                            Expression(
+                                                                              Expression1(
+                                                                                Term(
+                                                                                  FactorNumconst(
+                                                                                   0
+                                                                                  ) [FactorNumconst]
+                                                                                  NoMulopFactorList(
+                                                                                  ) [NoMulopFactorList]
+                                                                                ) [Term]
+                                                                                NoAddopTermList(
+                                                                                ) [NoAddopTermList]
+                                                                              ) [Expression1]
+                                                                            ) [Expression]
+                                                                          ) [DesignatorArr]
+                                                                          Assign(
+                                                                          ) [Assign]
+                                                                          Expression(
+                                                                            Expression1(
+                                                                              Term(
+                                                                                FactorBoolconst(
+                                                                                 true
+                                                                                ) [FactorBoolconst]
+                                                                                NoMulopFactorList(
+                                                                                ) [NoMulopFactorList]
+                                                                              ) [Term]
+                                                                              NoAddopTermList(
+                                                                              ) [NoAddopTermList]
+                                                                            ) [Expression1]
+                                                                          ) [Expression]
+                                                                        ) [Assignment]
+                                                                      ) [DesignatorStmt]
+                                                                    ) [Statements]
+                                                                    DesignatorStmt(
+                                                                      Assignment(
+                                                                        DesignatorArr(
+                                                                         nizb
+                                                                          Expression(
+                                                                            Expression1(
+                                                                              Term(
+                                                                                FactorNumconst(
+                                                                                 1
+                                                                                ) [FactorNumconst]
+                                                                                NoMulopFactorList(
+                                                                                ) [NoMulopFactorList]
+                                                                              ) [Term]
+                                                                              NoAddopTermList(
+                                                                              ) [NoAddopTermList]
+                                                                            ) [Expression1]
+                                                                          ) [Expression]
+                                                                        ) [DesignatorArr]
+                                                                        Assign(
+                                                                        ) [Assign]
+                                                                        Expression(
+                                                                          Expression1(
+                                                                            Term(
+                                                                              FactorBoolconst(
+                                                                               false
+                                                                              ) [FactorBoolconst]
+                                                                              NoMulopFactorList(
+                                                                              ) [NoMulopFactorList]
+                                                                            ) [Term]
+                                                                            NoAddopTermList(
+                                                                            ) [NoAddopTermList]
+                                                                          ) [Expression1]
+                                                                        ) [Expression]
+                                                                      ) [Assignment]
+                                                                    ) [DesignatorStmt]
+                                                                  ) [Statements]
+                                                                  PrintNoNum(
+                                                                    Expression(
+                                                                      Expression1(
+                                                                        Term(
+                                                                          FactorDesigOne(
+                                                                            DesignatorArr(
+                                                                             nizb
+                                                                              Expression(
+                                                                                Expression1(
+                                                                                  Term(
+                                                                                    FactorNumconst(
+                                                                                     0
+                                                                                    ) [FactorNumconst]
+                                                                                    NoMulopFactorList(
+                                                                                    ) [NoMulopFactorList]
+                                                                                  ) [Term]
+                                                                                  NoAddopTermList(
+                                                                                  ) [NoAddopTermList]
+                                                                                ) [Expression1]
+                                                                              ) [Expression]
+                                                                            ) [DesignatorArr]
+                                                                          ) [FactorDesigOne]
+                                                                          NoMulopFactorList(
+                                                                          ) [NoMulopFactorList]
+                                                                        ) [Term]
+                                                                        NoAddopTermList(
+                                                                        ) [NoAddopTermList]
+                                                                      ) [Expression1]
+                                                                    ) [Expression]
+                                                                  ) [PrintNoNum]
+                                                                ) [Statements]
+                                                                DesignatorStmt(
+                                                                  Assignment(
+                                                                    DesignatorStd(
+                                                                     niz
+                                                                    ) [DesignatorStd]
+                                                                    Assign(
+                                                                    ) [Assign]
+                                                                    Expression(
+                                                                      Expression1(
+                                                                        Term(
+                                                                          FactorNewArr(
+                                                                            Type(
+                                                                             int
+                                                                            ) [Type]
+                                                                            Expression(
+                                                                              Expression1(
+                                                                                Term(
+                                                                                  FactorNumconst(
+                                                                                   3
+                                                                                  ) [FactorNumconst]
+                                                                                  NoMulopFactorList(
+                                                                                  ) [NoMulopFactorList]
+                                                                                ) [Term]
+                                                                                NoAddopTermList(
+                                                                                ) [NoAddopTermList]
+                                                                              ) [Expression1]
+                                                                            ) [Expression]
+                                                                          ) [FactorNewArr]
+                                                                          NoMulopFactorList(
+                                                                          ) [NoMulopFactorList]
+                                                                        ) [Term]
+                                                                        NoAddopTermList(
+                                                                        ) [NoAddopTermList]
+                                                                      ) [Expression1]
+                                                                    ) [Expression]
+                                                                  ) [Assignment]
+                                                                ) [DesignatorStmt]
+                                                              ) [Statements]
+                                                              DesignatorStmt(
+                                                                Assignment(
+                                                                  DesignatorArr(
+                                                                   niz
+                                                                    Expression(
+                                                                      Expression1(
+                                                                        Term(
+                                                                          FactorDesigOne(
+                                                                            DesignatorStd(
+                                                                             nula
+                                                                            ) [DesignatorStd]
+                                                                          ) [FactorDesigOne]
+                                                                          NoMulopFactorList(
+                                                                          ) [NoMulopFactorList]
+                                                                        ) [Term]
+                                                                        NoAddopTermList(
+                                                                        ) [NoAddopTermList]
+                                                                      ) [Expression1]
+                                                                    ) [Expression]
+                                                                  ) [DesignatorArr]
+                                                                  Assign(
+                                                                  ) [Assign]
+                                                                  Expression(
+                                                                    Expression1(
+                                                                      Term(
+                                                                        FactorDesigOne(
+                                                                          DesignatorStd(
+                                                                           jedan
+                                                                          ) [DesignatorStd]
+                                                                        ) [FactorDesigOne]
+                                                                        NoMulopFactorList(
+                                                                        ) [NoMulopFactorList]
+                                                                      ) [Term]
+                                                                      NoAddopTermList(
+                                                                      ) [NoAddopTermList]
+                                                                    ) [Expression1]
+                                                                  ) [Expression]
+                                                                ) [Assignment]
+                                                              ) [DesignatorStmt]
+                                                            ) [Statements]
+                                                            DesignatorStmt(
+                                                              Assignment(
+                                                                DesignatorArr(
+                                                                 niz
+                                                                  Expression(
+                                                                    Expression1(
+                                                                      Term(
+                                                                        FactorNumconst(
+                                                                         1
+                                                                        ) [FactorNumconst]
+                                                                        NoMulopFactorList(
+                                                                        ) [NoMulopFactorList]
+                                                                      ) [Term]
+                                                                      NoAddopTermList(
+                                                                      ) [NoAddopTermList]
+                                                                    ) [Expression1]
+                                                                  ) [Expression]
+                                                                ) [DesignatorArr]
+                                                                Assign(
+                                                                ) [Assign]
+                                                                Expression(
+                                                                  Expression1(
+                                                                    Term(
+                                                                      FactorNumconst(
+                                                                       2
+                                                                      ) [FactorNumconst]
+                                                                      NoMulopFactorList(
+                                                                      ) [NoMulopFactorList]
+                                                                    ) [Term]
+                                                                    NoAddopTermList(
+                                                                    ) [NoAddopTermList]
+                                                                  ) [Expression1]
+                                                                ) [Expression]
+                                                              ) [Assignment]
+                                                            ) [DesignatorStmt]
+                                                          ) [Statements]
+                                                          DesignatorStmt(
+                                                            Assignment(
+                                                              DesignatorArr(
+                                                               niz
+                                                                Expression(
+                                                                  Expression1(
+                                                                    Term(
+                                                                      FactorDesigOne(
+                                                                        DesignatorArr(
+                                                                         niz
+                                                                          Expression(
+                                                                            Expression1(
+                                                                              Term(
+                                                                                FactorDesigOne(
+                                                                                  DesignatorStd(
+                                                                                   jedan
+                                                                                  ) [DesignatorStd]
+                                                                                ) [FactorDesigOne]
+                                                                                NoMulopFactorList(
+                                                                                ) [NoMulopFactorList]
+                                                                              ) [Term]
+                                                                              NoAddopTermList(
+                                                                              ) [NoAddopTermList]
+                                                                            ) [Expression1]
+                                                                          ) [Expression]
+                                                                        ) [DesignatorArr]
+                                                                      ) [FactorDesigOne]
+                                                                      NoMulopFactorList(
+                                                                      ) [NoMulopFactorList]
+                                                                    ) [Term]
+                                                                    NoAddopTermList(
+                                                                    ) [NoAddopTermList]
+                                                                  ) [Expression1]
+                                                                ) [Expression]
+                                                              ) [DesignatorArr]
+                                                              Assign(
+                                                              ) [Assign]
+                                                              Expression(
+                                                                Expression1(
+                                                                  Term(
+                                                                    FactorDesigOne(
+                                                                      DesignatorArr(
+                                                                       niz
+                                                                        Expression(
+                                                                          Expression1(
+                                                                            Term(
+                                                                              FactorDesigOne(
+                                                                                DesignatorArr(
+                                                                                 niz
+                                                                                  Expression(
+                                                                                    Expression1(
+                                                                                      Term(
+                                                                                        FactorNumconst(
+                                                                                         0
+                                                                                        ) [FactorNumconst]
+                                                                                        NoMulopFactorList(
+                                                                                        ) [NoMulopFactorList]
+                                                                                      ) [Term]
+                                                                                      NoAddopTermList(
+                                                                                      ) [NoAddopTermList]
+                                                                                    ) [Expression1]
+                                                                                  ) [Expression]
+                                                                                ) [DesignatorArr]
+                                                                              ) [FactorDesigOne]
+                                                                              NoMulopFactorList(
+                                                                              ) [NoMulopFactorList]
+                                                                            ) [Term]
+                                                                            NoAddopTermList(
+                                                                            ) [NoAddopTermList]
+                                                                          ) [Expression1]
+                                                                        ) [Expression]
+                                                                      ) [DesignatorArr]
+                                                                    ) [FactorDesigOne]
+                                                                    MulopFactorLista(
+                                                                      NoMulopFactorList(
+                                                                      ) [NoMulopFactorList]
+                                                                      Multiplication(
+                                                                      ) [Multiplication]
+                                                                      FactorNumconst(
+                                                                       3
+                                                                      ) [FactorNumconst]
+                                                                    ) [MulopFactorLista]
+                                                                  ) [Term]
+                                                                  NoAddopTermList(
+                                                                  ) [NoAddopTermList]
+                                                                ) [Expression1]
+                                                              ) [Expression]
+                                                            ) [Assignment]
+                                                          ) [DesignatorStmt]
+                                                        ) [Statements]
+                                                        DesignatorStmt(
+                                                          Assignment(
+                                                            DesignatorStd(
+                                                             bodovi
+                                                            ) [DesignatorStd]
+                                                            Assign(
+                                                            ) [Assign]
+                                                            Expression(
+                                                              Expression1(
+                                                                Term(
+                                                                  FactorDesigOne(
+                                                                    DesignatorArr(
+                                                                     niz
+                                                                      Expression(
+                                                                        Expression1(
+                                                                          Term(
+                                                                            FactorNumconst(
+                                                                             2
+                                                                            ) [FactorNumconst]
+                                                                            NoMulopFactorList(
+                                                                            ) [NoMulopFactorList]
+                                                                          ) [Term]
+                                                                          NoAddopTermList(
+                                                                          ) [NoAddopTermList]
+                                                                        ) [Expression1]
+                                                                      ) [Expression]
+                                                                    ) [DesignatorArr]
+                                                                  ) [FactorDesigOne]
+                                                                  MulopFactorLista(
+                                                                    NoMulopFactorList(
+                                                                    ) [NoMulopFactorList]
+                                                                    Division(
+                                                                    ) [Division]
+                                                                    FactorDesigOne(
+                                                                      DesignatorArr(
+                                                                       niz
+                                                                        Expression(
+                                                                          Expression1(
+                                                                            Term(
+                                                                              FactorNumconst(
+                                                                               0
+                                                                              ) [FactorNumconst]
+                                                                              NoMulopFactorList(
+                                                                              ) [NoMulopFactorList]
+                                                                            ) [Term]
+                                                                            NoAddopTermList(
+                                                                            ) [NoAddopTermList]
+                                                                          ) [Expression1]
+                                                                        ) [Expression]
+                                                                      ) [DesignatorArr]
+                                                                    ) [FactorDesigOne]
+                                                                  ) [MulopFactorLista]
+                                                                ) [Term]
+                                                                NoAddopTermList(
+                                                                ) [NoAddopTermList]
+                                                              ) [Expression1]
+                                                            ) [Expression]
+                                                          ) [Assignment]
+                                                        ) [DesignatorStmt]
+                                                      ) [Statements]
+                                                      PrintNoNum(
+                                                        Expression(
+                                                          Expression1(
+                                                            Term(
+                                                              FactorDesigOne(
+                                                                DesignatorStd(
+                                                                 bodovi
+                                                                ) [DesignatorStd]
+                                                              ) [FactorDesigOne]
+                                                              NoMulopFactorList(
+                                                              ) [NoMulopFactorList]
+                                                            ) [Term]
+                                                            NoAddopTermList(
+                                                            ) [NoAddopTermList]
+                                                          ) [Expression1]
+                                                        ) [Expression]
+                                                      ) [PrintNoNum]
+                                                    ) [Statements]
+                                                    PrintNoNum(
+                                                      Expression(
+                                                        Expression1(
+                                                          Term(
+                                                            FactorDesigOne(
+                                                              DesignatorArr(
+                                                               niz
+                                                                Expression(
+                                                                  Expression1(
+                                                                    Term(
+                                                                      FactorNumconst(
+                                                                       2
+                                                                      ) [FactorNumconst]
+                                                                      NoMulopFactorList(
+                                                                      ) [NoMulopFactorList]
+                                                                    ) [Term]
+                                                                    NoAddopTermList(
+                                                                    ) [NoAddopTermList]
+                                                                  ) [Expression1]
+                                                                ) [Expression]
+                                                              ) [DesignatorArr]
+                                                            ) [FactorDesigOne]
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [Expression1]
+                                                      ) [Expression]
+                                                    ) [PrintNoNum]
+                                                  ) [Statements]
+                                                  DesignatorStmt(
+                                                    Assignment(
+                                                      DesignatorStd(
+                                                       vrednostInt
+                                                      ) [DesignatorStd]
+                                                      Assign(
+                                                      ) [Assign]
+                                                      Expression(
+                                                        Expression1(
+                                                          Term(
+                                                            FactorFunctionCallPars(
+                                                              DesignatorStd(
+                                                               ord
+                                                              ) [DesignatorStd]
+                                                              Expression(
+                                                                Expression1(
+                                                                  Term(
+                                                                    FactorCharconst(
+                                                                     a
+                                                                    ) [FactorCharconst]
+                                                                    NoMulopFactorList(
+                                                                    ) [NoMulopFactorList]
+                                                                  ) [Term]
+                                                                  NoAddopTermList(
+                                                                  ) [NoAddopTermList]
+                                                                ) [Expression1]
+                                                              ) [Expression]
+                                                            ) [FactorFunctionCallPars]
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [Expression1]
+                                                      ) [Expression]
+                                                    ) [Assignment]
+                                                  ) [DesignatorStmt]
+                                                ) [Statements]
+                                                DesignatorStmt(
+                                                  Assignment(
+                                                    DesignatorStd(
+                                                     vrednostChar
+                                                    ) [DesignatorStd]
+                                                    Assign(
+                                                    ) [Assign]
+                                                    Expression(
+                                                      Expression1(
+                                                        Term(
+                                                          FactorFunctionCallPars(
+                                                            DesignatorStd(
+                                                             chr
+                                                            ) [DesignatorStd]
+                                                            Expression(
+                                                              Expression1(
+                                                                Term(
+                                                                  FactorNumconst(
+                                                                   65
+                                                                  ) [FactorNumconst]
+                                                                  NoMulopFactorList(
+                                                                  ) [NoMulopFactorList]
+                                                                ) [Term]
+                                                                NoAddopTermList(
+                                                                ) [NoAddopTermList]
+                                                              ) [Expression1]
+                                                            ) [Expression]
+                                                          ) [FactorFunctionCallPars]
+                                                          NoMulopFactorList(
+                                                          ) [NoMulopFactorList]
+                                                        ) [Term]
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                      ) [Expression1]
+                                                    ) [Expression]
+                                                  ) [Assignment]
+                                                ) [DesignatorStmt]
+                                              ) [Statements]
+                                              DesignatorStmt(
+                                                Assignment(
+                                                  DesignatorStd(
+                                                   nizch
+                                                  ) [DesignatorStd]
+                                                  Assign(
+                                                  ) [Assign]
+                                                  Expression(
+                                                    Expression1(
+                                                      Term(
+                                                        FactorNewArr(
+                                                          Type(
+                                                           char
+                                                          ) [Type]
+                                                          Expression(
+                                                            Expression1(
+                                                              Term(
+                                                                FactorNumconst(
+                                                                 3
+                                                                ) [FactorNumconst]
+                                                                NoMulopFactorList(
+                                                                ) [NoMulopFactorList]
+                                                              ) [Term]
+                                                              NoAddopTermList(
+                                                              ) [NoAddopTermList]
+                                                            ) [Expression1]
+                                                          ) [Expression]
+                                                        ) [FactorNewArr]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expression1]
+                                                  ) [Expression]
+                                                ) [Assignment]
+                                              ) [DesignatorStmt]
+                                            ) [Statements]
+                                            DesignatorStmt(
+                                              Assignment(
+                                                DesignatorArr(
+                                                 nizch
+                                                  Expression(
+                                                    Expression1(
+                                                      Term(
+                                                        FactorNumconst(
+                                                         0
+                                                        ) [FactorNumconst]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expression1]
+                                                  ) [Expression]
+                                                ) [DesignatorArr]
+                                                Assign(
+                                                ) [Assign]
+                                                Expression(
+                                                  Expression1(
+                                                    Term(
+                                                      FactorCharconst(
+                                                       a
+                                                      ) [FactorCharconst]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expression1]
+                                                ) [Expression]
+                                              ) [Assignment]
+                                            ) [DesignatorStmt]
+                                          ) [Statements]
+                                          DesignatorStmt(
+                                            Assignment(
+                                              DesignatorArr(
+                                               nizch
+                                                Expression(
+                                                  Expression1(
+                                                    Term(
+                                                      FactorDesigOne(
+                                                        DesignatorStd(
+                                                         jedan
+                                                        ) [DesignatorStd]
+                                                      ) [FactorDesigOne]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expression1]
+                                                ) [Expression]
+                                              ) [DesignatorArr]
+                                              Assign(
+                                              ) [Assign]
+                                              Expression(
+                                                Expression1(
+                                                  Term(
+                                                    FactorCharconst(
+                                                     b
+                                                    ) [FactorCharconst]
+                                                    NoMulopFactorList(
+                                                    ) [NoMulopFactorList]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [Expression1]
+                                              ) [Expression]
+                                            ) [Assignment]
+                                          ) [DesignatorStmt]
+                                        ) [Statements]
+                                        DesignatorStmt(
+                                          Assignment(
+                                            DesignatorArr(
+                                             nizch
+                                              Expression(
+                                                Expression1(
+                                                  Term(
+                                                    FactorDesigOne(
+                                                      DesignatorStd(
+                                                       pet
+                                                      ) [DesignatorStd]
+                                                    ) [FactorDesigOne]
+                                                    NoMulopFactorList(
+                                                    ) [NoMulopFactorList]
+                                                  ) [Term]
+                                                  AddopTermLista(
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                    Subtraction(
+                                                    ) [Subtraction]
+                                                    Term(
+                                                      FactorNumconst(
+                                                       3
+                                                      ) [FactorNumconst]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                  ) [AddopTermLista]
+                                                ) [Expression1]
+                                              ) [Expression]
+                                            ) [DesignatorArr]
+                                            Assign(
+                                            ) [Assign]
+                                            Expression(
+                                              Expression1(
+                                                Term(
+                                                  FactorCharconst(
+                                                   c
+                                                  ) [FactorCharconst]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expression1]
+                                            ) [Expression]
+                                          ) [Assignment]
+                                        ) [DesignatorStmt]
+                                      ) [Statements]
+                                      PrintNoNum(
+                                        Expression(
+                                          Expression1(
+                                            Term(
+                                              FactorDesigOne(
+                                                DesignatorArr(
+                                                 nizch
+                                                  Expression(
+                                                    Expression1(
+                                                      Term(
+                                                        FactorNumconst(
+                                                         1
+                                                        ) [FactorNumconst]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expression1]
+                                                  ) [Expression]
+                                                ) [DesignatorArr]
+                                              ) [FactorDesigOne]
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expression1]
+                                        ) [Expression]
+                                      ) [PrintNoNum]
+                                    ) [Statements]
+                                    PrintNoNum(
+                                      Expression(
+                                        Expression1(
+                                          Term(
+                                            FactorDesigOne(
+                                              DesignatorArr(
+                                               nizch
+                                                Expression(
+                                                  Expression1(
+                                                    Term(
+                                                      FactorDesigOne(
+                                                        DesignatorStd(
+                                                         jedan
+                                                        ) [DesignatorStd]
+                                                      ) [FactorDesigOne]
+                                                      MulopFactorLista(
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                        Multiplication(
+                                                        ) [Multiplication]
+                                                        FactorNumconst(
+                                                         2
+                                                        ) [FactorNumconst]
+                                                      ) [MulopFactorLista]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expression1]
+                                                ) [Expression]
+                                              ) [DesignatorArr]
+                                            ) [FactorDesigOne]
+                                            NoMulopFactorList(
+                                            ) [NoMulopFactorList]
+                                          ) [Term]
+                                          NoAddopTermList(
+                                          ) [NoAddopTermList]
+                                        ) [Expression1]
+                                      ) [Expression]
+                                    ) [PrintNoNum]
+                                  ) [Statements]
+                                  DesignatorStmt(
+                                    Assignment(
+                                      DesignatorStd(
+                                       bodovi
+                                      ) [DesignatorStd]
+                                      Assign(
+                                      ) [Assign]
+                                      Expression(
+                                        Expression1(
+                                          Term(
+                                            FactorDesigOne(
+                                              DesignatorStd(
+                                               bodovi
+                                              ) [DesignatorStd]
+                                            ) [FactorDesigOne]
+                                            NoMulopFactorList(
+                                            ) [NoMulopFactorList]
+                                          ) [Term]
+                                          AddopTermLista(
+                                            AddopTermLista(
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                              Addition(
+                                              ) [Addition]
+                                              Term(
+                                                FactorExpr(
+                                                  Expression(
+                                                    Expression1(
+                                                      Term(
+                                                        FactorDesigOne(
+                                                          DesignatorStd(
+                                                           pet
+                                                          ) [DesignatorStd]
+                                                        ) [FactorDesigOne]
+                                                        MulopFactorLista(
+                                                          NoMulopFactorList(
+                                                          ) [NoMulopFactorList]
+                                                          Multiplication(
+                                                          ) [Multiplication]
+                                                          FactorDesigOne(
+                                                            DesignatorStd(
+                                                             jedan
+                                                            ) [DesignatorStd]
+                                                          ) [FactorDesigOne]
+                                                        ) [MulopFactorLista]
+                                                      ) [Term]
+                                                      AddopTermLista(
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                        Subtraction(
+                                                        ) [Subtraction]
+                                                        Term(
+                                                          FactorNumconst(
+                                                           1
+                                                          ) [FactorNumconst]
+                                                          NoMulopFactorList(
+                                                          ) [NoMulopFactorList]
+                                                        ) [Term]
+                                                      ) [AddopTermLista]
+                                                    ) [Expression1]
+                                                  ) [Expression]
+                                                ) [FactorExpr]
+                                                MulopFactorLista(
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                  Multiplication(
+                                                  ) [Multiplication]
+                                                  FactorDesigOne(
+                                                    DesignatorStd(
+                                                     bodovi
+                                                    ) [DesignatorStd]
+                                                  ) [FactorDesigOne]
+                                                ) [MulopFactorLista]
+                                              ) [Term]
+                                            ) [AddopTermLista]
+                                            Subtraction(
+                                            ) [Subtraction]
+                                            Term(
+                                              FactorExpr(
+                                                Expression(
+                                                  Expression1(
+                                                    Term(
+                                                      FactorNumconst(
+                                                       3
+                                                      ) [FactorNumconst]
+                                                      MulopFactorLista(
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                        Modulus(
+                                                        ) [Modulus]
+                                                        FactorNumconst(
+                                                         2
+                                                        ) [FactorNumconst]
+                                                      ) [MulopFactorLista]
+                                                    ) [Term]
+                                                    AddopTermLista(
+                                                      AddopTermLista(
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                        Addition(
+                                                        ) [Addition]
+                                                        Term(
+                                                          FactorNumconst(
+                                                           3
+                                                          ) [FactorNumconst]
+                                                          MulopFactorLista(
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                            Multiplication(
+                                                            ) [Multiplication]
+                                                            FactorNumconst(
+                                                             2
+                                                            ) [FactorNumconst]
+                                                          ) [MulopFactorLista]
+                                                        ) [Term]
+                                                      ) [AddopTermLista]
+                                                      Subtraction(
+                                                      ) [Subtraction]
+                                                      Term(
+                                                        FactorNumconst(
+                                                         3
+                                                        ) [FactorNumconst]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                    ) [AddopTermLista]
+                                                  ) [Expression1]
+                                                ) [Expression]
+                                              ) [FactorExpr]
+                                              NoMulopFactorList(
+                                              ) [NoMulopFactorList]
+                                            ) [Term]
+                                          ) [AddopTermLista]
+                                        ) [Expression1]
+                                      ) [Expression]
+                                    ) [Assignment]
+                                  ) [DesignatorStmt]
+                                ) [Statements]
+                                PrintNoNum(
+                                  Expression(
+                                    Expression1(
+                                      Term(
+                                        FactorDesigOne(
+                                          DesignatorStd(
+                                           bodovi
+                                          ) [DesignatorStd]
+                                        ) [FactorDesigOne]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [Expression1]
+                                  ) [Expression]
+                                ) [PrintNoNum]
+                              ) [Statements]
+                              PrintNoNum(
+                                Expression(
+                                  Expression1(
+                                    Term(
+                                      FactorDesigOne(
+                                        DesignatorStd(
+                                         vrednostInt
+                                        ) [DesignatorStd]
+                                      ) [FactorDesigOne]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expression1]
+                                ) [Expression]
+                              ) [PrintNoNum]
+                            ) [Statements]
+                            PrintNoNum(
+                              Expression(
+                                Expression1Minus(
+                                  Term(
+                                    FactorDesigOne(
+                                      DesignatorStd(
+                                       vrednostInt
+                                      ) [DesignatorStd]
+                                    ) [FactorDesigOne]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expression1Minus]
+                              ) [Expression]
+                            ) [PrintNoNum]
+                          ) [Statements]
+                          PrintNum(
+                            Expression(
+                              Expression1(
+                                Term(
+                                  FactorDesigOne(
+                                    DesignatorStd(
+                                     vrednostChar
+                                    ) [DesignatorStd]
+                                  ) [FactorDesigOne]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expression1]
+                            ) [Expression]
+                           20
+                          ) [PrintNum]
+                        ) [Statements]
+                        DesignatorStmt(
+                          Assignment(
+                            DesignatorStd(
+                             bt
+                            ) [DesignatorStd]
+                            Assign(
+                            ) [Assign]
+                            Expression(
+                              Expression1(
+                                Term(
+                                  FactorBoolconst(
+                                   true
+                                  ) [FactorBoolconst]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expression1]
+                            ) [Expression]
+                          ) [Assignment]
+                        ) [DesignatorStmt]
+                      ) [Statements]
+                      PrintNum(
+                        Expression(
+                          Expression1(
+                            Term(
+                              FactorDesigOne(
+                                DesignatorStd(
+                                 bt
+                                ) [DesignatorStd]
+                              ) [FactorDesigOne]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [Expression1]
+                        ) [Expression]
+                       10
+                      ) [PrintNum]
+                    ) [Statements]
+                    PrintNoNum(
+                      TernaryOp(
+                        TernaryCond(
+                          Expression1(
+                            Term(
+                              FactorDesigOne(
+                                DesignatorStd(
+                                 bt
+                                ) [DesignatorStd]
+                              ) [FactorDesigOne]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [Expression1]
+                        ) [TernaryCond]
+                        TernaryExpr1(
+                          Expression1(
+                            Term(
+                              FactorDesigOne(
+                                DesignatorStd(
+                                 bodovi
+                                ) [DesignatorStd]
+                              ) [FactorDesigOne]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [Expression1]
+                        ) [TernaryExpr1]
+                        TernaryExpr2(
+                          Expression1(
+                            Term(
+                              FactorDesigOne(
+                                DesignatorStd(
+                                 bodovi
+                                ) [DesignatorStd]
+                              ) [FactorDesigOne]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            AddopTermLista(
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                              Addition(
+                              ) [Addition]
+                              Term(
+                                FactorNumconst(
+                                 10
+                                ) [FactorNumconst]
+                                NoMulopFactorList(
+                                ) [NoMulopFactorList]
+                              ) [Term]
+                            ) [AddopTermLista]
+                          ) [Expression1]
+                        ) [TernaryExpr2]
+                      ) [TernaryOp]
+                    ) [PrintNoNum]
+                  ) [Statements]
+                  PrintNoNum(
+                    TernaryOp(
+                      TernaryCond(
+                        Expression1(
+                          Term(
+                            FactorBoolconst(
+                             false
+                            ) [FactorBoolconst]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          NoAddopTermList(
+                          ) [NoAddopTermList]
+                        ) [Expression1]
+                      ) [TernaryCond]
+                      TernaryExpr1(
+                        Expression1(
+                          Term(
+                            FactorDesigOne(
+                              DesignatorStd(
+                               bodovi
+                              ) [DesignatorStd]
+                            ) [FactorDesigOne]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          AddopTermLista(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            Addition(
+                            ) [Addition]
+                            Term(
+                              FactorNumconst(
+                               20
+                              ) [FactorNumconst]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                          ) [AddopTermLista]
+                        ) [Expression1]
+                      ) [TernaryExpr1]
+                      TernaryExpr2(
+                        Expression1(
+                          Term(
+                            FactorDesigOne(
+                              DesignatorStd(
+                               bodovi
+                              ) [DesignatorStd]
+                            ) [FactorDesigOne]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          AddopTermLista(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            Addition(
+                            ) [Addition]
+                            Term(
+                              FactorNumconst(
+                               30
+                              ) [FactorNumconst]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                          ) [AddopTermLista]
+                        ) [Expression1]
+                      ) [TernaryExpr2]
+                    ) [TernaryOp]
+                  ) [PrintNoNum]
+                ) [Statements]
+                ReturnNoExpr(
+                ) [ReturnNoExpr]
+              ) [Statements]
+            ) [MethodDecl]
+          ) [MethodDeclSingle]
+          MethodDecl(
+            MethodVoidName(
+             druganeka
+            ) [MethodVoidName]
+            NoFormParam(
+            ) [NoFormParam]
+            VarDeclarationsNo(
+            ) [VarDeclarationsNo]
+            NoStmt(
+            ) [NoStmt]
+          ) [MethodDecl]
+        ) [MethodDeclarations]
+        MethodDecl(
+          MethodTypeName(
+            Type(
+             int
+            ) [Type]
+           trecaneka
+          ) [MethodTypeName]
+          NoFormParam(
+          ) [NoFormParam]
+          VarDeclarationsNo(
+          ) [VarDeclarationsNo]
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            ReturnExpr(
+              Expression(
+                Expression1(
+                  Term(
+                    FactorNumconst(
+                     1
+                    ) [FactorNumconst]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expression1]
+              ) [Expression]
+            ) [ReturnExpr]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          Type(
+           char
+          ) [Type]
+         cetvrta
+        ) [MethodTypeName]
+        FormParams(
+          FormalParamDecls(
+            FormParPartStd(
+              Type(
+               char
+              ) [Type]
+             a
+            ) [FormParPartStd]
+            FormParsCommaListNo(
+            ) [FormParsCommaListNo]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        VarDeclarationsNo(
+        ) [VarDeclarationsNo]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          ReturnExpr(
+            Expression(
+              Expression1(
+                Term(
+                  FactorDesigOne(
+                    DesignatorStd(
+                     a
+                    ) [DesignatorStd]
+                  ) [FactorDesigOne]
+                  NoMulopFactorList(
+                  ) [NoMulopFactorList]
+                ) [Term]
+                NoAddopTermList(
+                ) [NoAddopTermList]
+              ) [Expression1]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         bool
+        ) [Type]
+       peta
+      ) [MethodTypeName]
+      FormParams(
+        FormalParamDecls(
+          FormParPartStd(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParPartStd]
+          FormParsCommaLista(
+            FormParsCommaLista(
+              FormParsCommaListNo(
+              ) [FormParsCommaListNo]
+              FormParPartStd(
+                Type(
+                 char
+                ) [Type]
+               b
+              ) [FormParPartStd]
+            ) [FormParsCommaLista]
+            FormParPartStd(
+              Type(
+               bool
+              ) [Type]
+             c
+            ) [FormParPartStd]
+          ) [FormParsCommaLista]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      VarDeclarationsNo(
+      ) [VarDeclarationsNo]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ReturnExpr(
+          Expression(
+            Expression1(
+              Term(
+                FactorDesigOne(
+                  DesignatorStd(
+                   c
+                  ) [DesignatorStd]
+                ) [FactorDesigOne]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expression1]
+          ) [Expression]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+Pocetak semanticke obrade programa semantika na liniji 3
+Deklarisana konstanta nula : Con nula: int, 0, 0  na liniji 5
+Deklarisana konstanta jedan : Con jedan: int, 0, 0  na liniji 6
+Deklarisana konstanta pet : Con pet: int, 0, 0  na liniji 7
+Deklarisan globalni niz niz : Var niz: Arr of int, 0, 0  na liniji 8
+Deklarisan globalni niz nizch : Var nizch: Arr of char, 1, 0  na liniji 9
+Deklarisan globalni niz nizb : Var nizb: Arr of bool, 2, 0  na liniji 10
+Obrada metode main bez povratne vrednosti na liniji 12
+Deklarisana lokalna promenljiva bodovi : Var bodovi: int, 0, 1  na liniji 13
+Deklarisana lokalna promenljiva len : Var len: int, 1, 1  na liniji 14
+Deklarisana lokalna promenljiva vrednostInt : Var vrednostInt: int, 2, 1  na liniji 15
+Deklarisana lokalna promenljiva vrednostChar : Var vrednostChar: char, 3, 1  na liniji 16
+Deklarisan lokalni niz nen : Var nen: Arr of char, 4, 1  na liniji 17
+Deklarisana lokalna promenljiva bt : Var bt: bool, 5, 1  na liniji 18
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 20
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 21
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 22
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 22
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 22
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 23
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 23
+Upotreba (pet) : Con pet: int, 5, 0  na liniji 23
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 24
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 25
+Upotreba (nizb) : Var nizb: Arr of bool, 2, 0  na liniji 27
+Upotreba  (nizb) : Var nizb: Arr of bool, 2, 0  na liniji 28
+Upotreba  (nizb) : Var nizb: Arr of bool, 2, 0  na liniji 29
+Upotreba  (nizb) : Var nizb: Arr of bool, 2, 0  na liniji 30
+Upotreba (niz) : Var niz: Arr of int, 0, 0  na liniji 33
+Upotreba (nula) : Con nula: int, 0, 0  na liniji 34
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 34
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 34
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 35
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 36
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 36
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 36
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 36
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 36
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 37
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 37
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 37
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 38
+Upotreba  (niz) : Var niz: Arr of int, 0, 0  na liniji 39
+Upotreba (vrednostInt) : Var vrednostInt: int, 2, 1  na liniji 41
+Upotreba (ord) : Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+ na liniji 41
+Upotreba (vrednostChar) : Var vrednostChar: char, 3, 1  na liniji 42
+Upotreba (chr) : Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+ na liniji 42
+Upotreba (nizch) : Var nizch: Arr of char, 1, 0  na liniji 44
+Upotreba  (nizch) : Var nizch: Arr of char, 1, 0  na liniji 45
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 46
+Upotreba  (nizch) : Var nizch: Arr of char, 1, 0  na liniji 46
+Upotreba (pet) : Con pet: int, 5, 0  na liniji 47
+Upotreba  (nizch) : Var nizch: Arr of char, 1, 0  na liniji 47
+Upotreba  (nizch) : Var nizch: Arr of char, 1, 0  na liniji 48
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 49
+Upotreba  (nizch) : Var nizch: Arr of char, 1, 0  na liniji 49
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 51
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 51
+Upotreba (pet) : Con pet: int, 5, 0  na liniji 51
+Upotreba (jedan) : Con jedan: int, 1, 0  na liniji 51
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 51
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 52
+Upotreba (vrednostInt) : Var vrednostInt: int, 2, 1  na liniji 53
+Upotreba (vrednostInt) : Var vrednostInt: int, 2, 1  na liniji 54
+Upotreba (vrednostChar) : Var vrednostChar: char, 3, 1  na liniji 55
+Upotreba (bt) : Var bt: bool, 5, 1  na liniji 57
+Upotreba (bt) : Var bt: bool, 5, 1  na liniji 58
+Upotreba (bt) : Var bt: bool, 5, 1  na liniji 59
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 59
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 59
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 60
+Upotreba (bodovi) : Var bodovi: int, 0, 1  na liniji 60
+Zavrsetak obrade metode (funkcije) main na liniji 12
+Obrada metode druganeka bez povratne vrednosti na liniji 64
+Zavrsetak obrade metode (funkcije) druganeka na liniji 64
+Obrada metode trecaneka s povratnom vrednoscu na liniji 68
+Zavrsetak obrade metode (funkcije) trecaneka na liniji 68
+Obrada metode cetvrta s povratnom vrednoscu na liniji 72
+Obradjen obican parametar f-je cetvrta na liniji 72
+Upotreba (a) : Var a: char, 0, 1  na liniji 73
+Zavrsetak obrade metode (funkcije) cetvrta na liniji 72
+Obrada metode peta s povratnom vrednoscu na liniji 76
+Obradjen obican parametar f-je peta na liniji 76
+Obradjen obican parametar f-je peta na liniji 76
+Obradjen obican parametar f-je peta na liniji 76
+Upotreba (c) : Var c: bool, 2, 1  na liniji 77
+Zavrsetak obrade metode (funkcije) peta na liniji 76
+Kraj semanticke obrade programa semantika
+Sintaksna i semanticka analiza uspesno zavrsena!
+======================GENERISANJE_KODA========================
+Generisanje koda uspesno zavrseno!
+Generisanje izlaznog fajla test\program.obj
+==============================================================
